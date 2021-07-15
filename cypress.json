@@ -1,0 +1,14 @@
+
+{
+    "env": {
+      "SNAPSHOT_BASE_DIRECTORY":"cypress/snapshots/base",
+      "SNAPSHOT_DIFF_DIRECTORY":"cypress/snapshots/actual",
+      "type": "base",
+      "failSilently": false
+    },
+        "screenshotsFolder": "./cypress/snapshots/actual",
+        "trashAssetsBeforeRuns": true 
+    
+      }
+  
+  

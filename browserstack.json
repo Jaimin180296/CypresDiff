@@ -1,0 +1,43 @@
+{
+    "auth": {
+        "username": "jaiminmehta3",
+        "access_key": "AfSweJK2YK3z5sW1xRSr"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+             ]
+        }
+    ],
+    "run_settings": {
+    
+        "cypress_config_file": "cypress.json",
+        "project_name": "project-name",
+        "build_name": "build-name1",
+        "exclude": [],
+        "parallels": "Here goes the number of parallels you want to run",
+        "npm_dependencies": {
+        
+           "cypress-visual-regression": "^1.5.7",
+			"@cypress/snapshot": "^2.1.7",
+			"cypress-image-snapshot": "^4.0.1",
+			"cypress-plugin-snapshots": "^1.4.4",
+			"cypress-wait-until": "^1.7.1"
+        
+        },
+        "package_config_options": {},
+        "cypress_version": "6",
+        "headless": true
+        
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": "localTestingon",
+        "local_mode": "always-on",
+        "local_config_file":"local.yml"
+    },
+    "disable_usage_reporting": false
+}
